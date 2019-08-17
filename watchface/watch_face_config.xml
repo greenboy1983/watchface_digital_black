@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="454">
+        <Widget widget_type="IMAGE">
+            <Image 
+                lable="backgroud"
+                type="static"
+                x="0"
+                y="0"
+                res_name="A100_002.png"
+            />
+        </Widget>
+
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage
+                label="week"
+                type="static"
+                drawable_x="242"
+                drawable_y="34"
+                data_type="DATA_WEEK"
+            />
+            <ImagesList
+                res_0="A100_009.png"
+                res_1="A100_003.png"
+                res_2="A100_004.png"
+                res_3="A100_005.png"
+                res_4="A100_006.png"
+                res_5="A100_007.png"
+                res_6="A100_008.png"
+                res_7="A100_009.png"
+                res_8=""
+                res_9=""
+                res_10=""
+                res_11=""
+                res_12=""
+                res_13=""
+                res_14=""
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="steps text"
+                type="static"
+                drawable_x="115"
+                drawable_y="86"
+                drawable_width="100"
+                drawable_height="36"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_STEPS"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINCONDENSED_BOLD_44"
+                alpha="255"
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="calorie text"
+                type="static"
+                drawable_x="240"
+                drawable_y="86"
+                drawable_width="100"
+                drawable_height="36"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_CALORIE"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINCONDENSED_BOLD_44"
+                alpha="255"
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="heart text"
+                type="static"
+                drawable_x="130"
+                drawable_y="323"
+                drawable_width="70"
+                drawable_height="36"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_HEARTRATE"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINCONDENSED_BOLD_44"
+                alpha="255"
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="altitude_text"
+                type="static"
+                drawable_x="252"
+                drawable_y="323"
+                drawable_width="75"
+                drawable_height="36"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_AILTITUDE"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINCONDENSED_BOLD_44"
+                alpha="255"
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHTWOWILDCARD">
+            <TextAreaWithTwoWildCard 
+                lable="power_date_text"
+                type="static"
+                drawable_x="210"
+                drawable_y="389"
+                drawable_width="80"
+                drawable_height="36"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                line_spacing="0"
+                alpha="255"
+                font_type="F_DINCONDENSED_BOLD_44"
+                alignment_type="CENTER"
+                data_connector_type="CONN_PERCENT"
+                data_type="DATA_POWER"
+                data2_type="DATA_NULL"
+            />
+        </Widget>
+
+         <Widget widget_type="SELECTIMAGE">
+            <SelectImage
+                label="hour high text"
+                type="static"
+                drawable_x="22"
+                drawable_y="157"
+                data_type="DATA_HOUR_HIGH"
+            />
+            <ImagesList
+                res_0="A100_010.png"
+                res_1="A100_011.png"
+                res_2="A100_012.png"
+                res_3="A100_013.png"
+                res_4="A100_014.png"
+                res_5="A100_015.png"
+                res_6="A100_016.png"
+                res_7="A100_017.png"
+                res_8="A100_018.png"
+                res_9="A100_019.png"
+                res_10="A100_010.png"
+                res_11=""
+                res_12=""
+                res_13=""
+                res_14=""
+            />
+        </Widget>
+
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage
+                label="hour low text"
+                type="static"
+                drawable_x="98"
+                drawable_y="157"
+                data_type="DATA_HOUR_LOW"
+            />
+            <ImagesList
+                res_0="A100_010.png"
+                res_1="A100_011.png"
+                res_2="A100_012.png"
+                res_3="A100_013.png"
+                res_4="A100_014.png"
+                res_5="A100_015.png"
+                res_6="A100_016.png"
+                res_7="A100_017.png"
+                res_8="A100_018.png"
+                res_9="A100_019.png"
+                res_10="A100_010.png"
+                res_11=""
+                res_12=""
+                res_13=""
+                res_14=""
+            />
+        </Widget>
+
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage
+                label="minute high text"
+                type="static"
+                drawable_x="189"
+                drawable_y="157"
+                data_type="DATA_MINITE_HIGH"
+            />
+            <ImagesList
+                res_0="A100_010.png"
+                res_1="A100_011.png"
+                res_2="A100_012.png"
+                res_3="A100_013.png"
+                res_4="A100_014.png"
+                res_5="A100_015.png"
+                res_6="A100_016.png"
+                res_7="A100_017.png"
+                res_8="A100_018.png"
+                res_9="A100_019.png"
+                res_10="A100_010.png"
+                res_11=""
+                res_12=""
+                res_13=""
+                res_14=""
+            />
+        </Widget>
+
+        <Widget widget_type="SELECTIMAGE">
+            <SelectImage
+                label="minute low text"
+                type="static"
+                drawable_x="265"
+                drawable_y="157"
+                data_type="DATA_MINITE_LOW"
+            />
+            <ImagesList
+                res_0="A100_010.png"
+                res_1="A100_011.png"
+                res_2="A100_012.png"
+                res_3="A100_013.png"
+                res_4="A100_014.png"
+                res_5="A100_015.png"
+                res_6="A100_016.png"
+                res_7="A100_017.png"
+                res_8="A100_018.png"
+                res_9="A100_019.png"
+                res_10="A100_010.png"
+                res_11=""
+                res_12=""
+                res_13=""
+                res_14=""
+            />
+        </Widget>
+
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="second high text"
+                type="static"
+                drawable_x="349"
+                drawable_y="145"
+                drawable_width="45"
+                drawable_height="90"
+                color_red="255"
+                color_green="255"
+                color_blue="100"
+                data_type="DATA_SECOND_HIGH"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINNEXTFORHUAWEI_BOLD_80"
+                alpha="255"
+            />
+        </Widget>
+        
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="second low text"
+                type="static"
+                drawable_x="395"
+                drawable_y="145"
+                drawable_width="45"
+                drawable_height="90"
+                color_red="255"
+                color_green="255"
+                color_blue="100"
+                data_type="DATA_SECOND_LOW"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_DINNEXTFORHUAWEI_BOLD_80"
+                alpha="255"
+            />
+        </Widget>
+        
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="month"
+                type="static"
+                drawable_x="127"
+                drawable_y="23"
+                drawable_width="35"
+                drawable_height="35"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_MONTH"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_ROBOTOCONDENSED_REGULAR_30"
+                alpha="255"
+            />
+        </Widget>
+        
+        <Widget widget_type="TEXTAREAWITHONEWILDCARD">
+            <TextAreaWithOneWildcard
+                lable="date"
+                type="static"
+                drawable_x="178"
+                drawable_y="23"
+                drawable_width="35"
+                drawable_height="35"
+                color_red="255"
+                color_green="255"
+                color_blue="255"
+                data_type="DATA_DATE"
+                line_spacing="0"
+                alignment_type="CENTER"
+                font_type="F_ROBOTOCONDENSED_REGULAR_30"
+                alpha="255"
+            />
+        </Widget>
+    </TemplateWatch>
+</providers>

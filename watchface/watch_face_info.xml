@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>Digital Black</title>
+    <title-cn>24小时制</title-cn>
+    <author>Bill Wang</author>
+    <designer>Bill Wang</designer>
+    <screen>HWHD02</screen>
+    <version>2.1.1</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+    <briefinfo>数字黑白定制表盘</briefinfo>
+</HwTheme>
